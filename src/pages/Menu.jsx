@@ -9,9 +9,9 @@ export default function Menu() {
   const { addToCart } = useContext(CartContext);
   const [filterTag, setFilterTag] = useState("");
 
-  const filteredItems = filterTag
-    ? items.filter(item => item.tag === filterTag)
-    : items;
+  //const filteredItems = filterTag
+    //? items.filter(item => item.tag === filterTag)
+    //: items;
 
 
   return (
